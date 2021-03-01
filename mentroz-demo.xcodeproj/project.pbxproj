@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA1F7EB625E12E6900364A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1F7EB525E12E6900364A54 /* AppDelegate.swift */; };
+		CA06681825E3AC7000EA0516 /* SignupDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06681725E3AC7000EA0516 /* SignupDetailsViewController.swift */; };
+		CA156BDD25ECE7BB00B09ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1F7EB525E12E6900364A54 /* AppDelegate.swift */; };
 		CA1F7EB825E12E6900364A54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1F7EB725E12E6900364A54 /* SceneDelegate.swift */; };
 		CA1F7EBA25E12E6900364A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1F7EB925E12E6900364A54 /* ViewController.swift */; };
 		CA1F7EBD25E12E6900364A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1F7EBB25E12E6900364A54 /* Main.storyboard */; };
-		CA1F7EBF25E12E6A00364A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1F7EBE25E12E6A00364A54 /* Assets.xcassets */; };
 		CA1F7EC225E12E6A00364A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1F7EC025E12E6A00364A54 /* LaunchScreen.storyboard */; };
+		CA1F7ED025E1600E00364A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1F7ECF25E1600E00364A54 /* Assets.xcassets */; };
+		CA1F7EF725E2368D00364A54 /* LoginPageCvc.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1F7EF525E2368D00364A54 /* LoginPageCvc.xib */; };
+		CA42A0A725E2BF9700EBAB7E /* UILoginSignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A0A625E2BF9700EBAB7E /* UILoginSignupButton.swift */; };
+		CA42A0D325E37B2500EBAB7E /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42A0D225E37B2500EBAB7E /* FacebookButton.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CA06680325E3910000EA0516 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		252190AC287DC66399A2B034 /* Pods-mentroz-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentroz-demo.release.xcconfig"; path = "Target Support Files/Pods-mentroz-demo/Pods-mentroz-demo.release.xcconfig"; sourceTree = "<group>"; };
+		2E34E4FC2167EC425CC9DF7F /* Pods-mentroz-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentroz-demo.debug.xcconfig"; path = "Target Support Files/Pods-mentroz-demo/Pods-mentroz-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA06681725E3AC7000EA0516 /* SignupDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupDetailsViewController.swift; sourceTree = "<group>"; };
+		CA156BC825ECB0CA00B09ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1F7EB225E12E6900364A54 /* mentroz-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mentroz-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1F7EB525E12E6900364A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA1F7EB725E12E6900364A54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA1F7EB925E12E6900364A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA1F7EBC25E12E6900364A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA1F7EBE25E12E6A00364A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1F7EC125E12E6A00364A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA1F7EC325E12E6A00364A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1F7ECF25E1600E00364A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		CA1F7EF525E2368D00364A54 /* LoginPageCvc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginPageCvc.xib; sourceTree = "<group>"; };
+		CA42A0A625E2BF9700EBAB7E /* UILoginSignupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoginSignupButton.swift; sourceTree = "<group>"; };
+		CA42A0D225E37B2500EBAB7E /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +61,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15F2E454570F4766C0C81664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA156BC825ECB0CA00B09ED7 /* Assets.xcassets */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66DC1D633036F17F65390838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E34E4FC2167EC425CC9DF7F /* Pods-mentroz-demo.debug.xcconfig */,
+				252190AC287DC66399A2B034 /* Pods-mentroz-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CA1F7EA925E12E6900364A54 = {
 			isa = PBXGroup;
 			children = (
 				CA1F7EB425E12E6900364A54 /* mentroz-demo */,
 				CA1F7EB325E12E6900364A54 /* Products */,
+				66DC1D633036F17F65390838 /* Pods */,
+				15F2E454570F4766C0C81664 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +101,25 @@
 			children = (
 				CA1F7EB525E12E6900364A54 /* AppDelegate.swift */,
 				CA1F7EB725E12E6900364A54 /* SceneDelegate.swift */,
+				CA42A0A525E2BF6100EBAB7E /* UIController */,
 				CA1F7EB925E12E6900364A54 /* ViewController.swift */,
+				CA06681725E3AC7000EA0516 /* SignupDetailsViewController.swift */,
 				CA1F7EBB25E12E6900364A54 /* Main.storyboard */,
-				CA1F7EBE25E12E6A00364A54 /* Assets.xcassets */,
 				CA1F7EC025E12E6A00364A54 /* LaunchScreen.storyboard */,
 				CA1F7EC325E12E6A00364A54 /* Info.plist */,
+				CA1F7ECF25E1600E00364A54 /* Assets.xcassets */,
+				CA1F7EF525E2368D00364A54 /* LoginPageCvc.xib */,
 			);
 			path = "mentroz-demo";
+			sourceTree = "<group>";
+		};
+		CA42A0A525E2BF6100EBAB7E /* UIController */ = {
+			isa = PBXGroup;
+			children = (
+				CA42A0A625E2BF9700EBAB7E /* UILoginSignupButton.swift */,
+				CA42A0D225E37B2500EBAB7E /* FacebookButton.swift */,
+			);
+			path = UIController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA1F7EC625E12E6A00364A54 /* Build configuration list for PBXNativeTarget "mentroz-demo" */;
 			buildPhases = (
+				3487C3175B444C9E09CEFC0B /* [CP] Check Pods Manifest.lock */,
 				CA1F7EAE25E12E6900364A54 /* Sources */,
 				CA1F7EAF25E12E6900364A54 /* Frameworks */,
 				CA1F7EB025E12E6900364A54 /* Resources */,
+				CA06680325E3910000EA0516 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +182,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA1F7EC225E12E6A00364A54 /* LaunchScreen.storyboard in Resources */,
-				CA1F7EBF25E12E6A00364A54 /* Assets.xcassets in Resources */,
+				CA1F7ED025E1600E00364A54 /* Assets.xcassets in Resources */,
 				CA1F7EBD25E12E6900364A54 /* Main.storyboard in Resources */,
+				CA1F7EF725E2368D00364A54 /* LoginPageCvc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3487C3175B444C9E09CEFC0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mentroz-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA1F7EAE25E12E6900364A54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA156BDD25ECE7BB00B09ED7 /* AppDelegate.swift in Sources */,
 				CA1F7EBA25E12E6900364A54 /* ViewController.swift in Sources */,
-				CA1F7EB625E12E6900364A54 /* AppDelegate.swift in Sources */,
+				CA42A0D325E37B2500EBAB7E /* FacebookButton.swift in Sources */,
+				CA42A0A725E2BF9700EBAB7E /* UILoginSignupButton.swift in Sources */,
 				CA1F7EB825E12E6900364A54 /* SceneDelegate.swift in Sources */,
+				CA06681825E3AC7000EA0516 /* SignupDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +369,12 @@
 		};
 		CA1F7EC725E12E6A00364A54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E34E4FC2167EC425CC9DF7F /* Pods-mentroz-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q53SJPYVXR;
 				INFOPLIST_FILE = "mentroz-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,10 +389,12 @@
 		};
 		CA1F7EC825E12E6A00364A54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252190AC287DC66399A2B034 /* Pods-mentroz-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q53SJPYVXR;
 				INFOPLIST_FILE = "mentroz-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

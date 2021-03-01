@@ -1,0 +1,23 @@
+PODS:
+  - CountryCodePicker (0.1.0)
+  - FBSnapshotTestCase (2.1.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.3)
+  - FBSnapshotTestCase/Core (2.1.3)
+  - FBSnapshotTestCase/SwiftSupport (2.1.3):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CountryCodePicker (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CountryCodePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CountryCodePicker: acd5e38953eba851e9b882ce1b60bf2b3a14f529
+  FBSnapshotTestCase: 4607968e0dfa1e2772ec0d0098354f8b870c5753
+
+PODFILE CHECKSUM: 863b544c8fff31fd3b11aacc7fa9f4806b2557ac
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CountryCodePicker_Example' do
+  pod 'CountryCodePicker', :path => '../'
+
+  target 'CountryCodePicker_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
